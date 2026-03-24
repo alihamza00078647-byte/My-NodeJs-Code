@@ -1,0 +1,14 @@
+{
+  "name": "lecture-12-npm",
+  "version": "1.0.0",
+  "description": "This is Server package",
+  "license": "ISC",
+  "author": "ServerG",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "chal-ja": "node server.js"
+  }
+}
