@@ -1,0 +1,21 @@
+{
+  "name": "lecture-18-practice-set",
+  "version": "1.0.0",
+  "description": "This is 3rd Practice set",
+  "keywords": [
+    "Practice",
+    "Set"
+  ],
+  "license": "ISC",
+  "author": "of Course ME",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}

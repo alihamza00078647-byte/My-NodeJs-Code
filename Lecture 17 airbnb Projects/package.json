@@ -1,0 +1,20 @@
+{
+  "name": "lecture-17-airbnb-projects",
+  "version": "1.0.0",
+  "description": "This is a airbnb clone",
+  "keywords": [
+    "airbnb"
+  ],
+  "license": "ISC",
+  "author": "Ali Hamza",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}
