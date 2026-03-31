@@ -1,0 +1,21 @@
+<%- include('partial/head') %>
+</head>
+<body>
+    <ul class="navbar">
+        <a href="/Clothes"><li>Go To Home</li></a>
+        <a href="/Clothes"><li>Add Home</li></a>
+    </ul>
+    <h1 class="welcome-text">
+        Here are Our Registered Homes
+    </h1>
+
+    <ul class="flex justify-evenly h-10 bg-teal-400">
+        <% registeredHomes.forEach(homes => { %>
+            <li class=" text-2xl list-none h-5 text-amber-700">
+                <span class="text-xl shadow-fuchsia-300 text-blue-500 font-bold"><%= homes.name %></span>
+                <span class="text-xl shadow-fuchsia-300 text-blue-500 font-bold"><%= homes.email %></span>  
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

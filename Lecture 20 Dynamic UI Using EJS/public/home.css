@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 3rem;
+    width: 99%;
+    background-color: rgb(143, 79, 203);
+    display: flex;
+    padding: 5px;
+    
+}
+.navbar li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+.navbar a{
+    font-size: 1.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-decoration: none;
+}
+
+@keyframes animate{
+    0%{color: #EEB4B3; transform: rotate(0deg);} 
+    20% {color: #FD151B; transform: rotate(90deg);}
+    40% {color: #A42CD6; transform: rotate(180deg);}
+    80% {color: #0A8754; transform: rotate(270deg);}
+    100% {color: #C0D684; transform: rotate(360deg);}
+}
+
+.welcome-text{
+    text-align: center;
+    margin: 4rem auto;
+    height: 5rem;
+    width: 40%;
+    box-shadow: 0px 1px 1px grey;
+    /* animation: animate 6s linear 1s infinite normal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
