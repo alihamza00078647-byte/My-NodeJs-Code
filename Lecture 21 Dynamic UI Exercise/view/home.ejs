@@ -1,0 +1,35 @@
+<%- include('partials/head') %>
+    <style>
+        .home{
+            height: 90vh;
+            width: 90vw;
+            border: 2px solid black;
+            margin: 1rem auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="background-color: #f64d47; color: white; font-weight: 600; text-align: center; padding: 6px;">Welcome To airbnb</h1>
+        <div class="bg-orange-600 text-xl p-10 text-white ">
+            <a style="text-decoration: none; background-color: orangered; border: none; text-align: center; padding: 10px; border-radius: 6px; font-size: 1.1rem; font-weight: 600; color:white" href="/add-home">Add Home</a>
+        </div>
+        <div class="home">
+            <% registeredHomes.forEach(homes => { %>
+            <ul style="height: 15rem; background-color: lightgray; width: 12rem; list-style: none; display: flex; flex-direction: column; justify-content: end;">
+                    <img src="" style= "height: 4rem; width: 4rem;" alt="Not">
+                    <li>
+                        <span><%= homes.name %></span>
+                        <span><%= homes.price %></span>
+                        <span><%= homes.location %></span>
+                        <span><%= homes.rating %></span>
+                    </li>
+                </ul>
+            <% }); %>
+        </div>
+    </header>
+</body>
+</html>
