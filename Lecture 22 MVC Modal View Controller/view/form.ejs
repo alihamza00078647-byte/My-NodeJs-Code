@@ -1,0 +1,32 @@
+<%- include('partials/head') %>
+
+<style>
+    form{
+        height: 15rem;
+        width: 60%;
+        margin: 1rem auto;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+    }
+    input{
+        padding: 6px;
+    }
+</style>
+
+</head>
+
+<body>
+    <h1 style="background-color: #f64d47; color: white; font-weight: 600; text-align: center; padding: 6px;">Add Home Details at airbnb</h1>
+    <form action="" method="post" class="flex-col border-2 gap-10 p-10">
+        
+        <input class="block" type="text" name="houseName" placeholder="Enter House Name">
+        <input class="block" type="text" name="price" placeholder="price Each Day">
+        <input class="block" type="text" name="location" placeholder="Enter Location">
+        <input class="block" type="text" name="rating" placeholder="Rating">
+        <input class="block" class="bg-orange-600 " type="submit">
+    </form>
+
+</body>
+</html>
